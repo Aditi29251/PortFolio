@@ -14,9 +14,10 @@
 }
 
 :root {
+   
     --bg-color: #191f36;
-    --snd-bg-color: #262840;
-    --text-color: #fff;
+  --snd-bg-color: #262840;
+    --text-color:#fff;
      --main-color: #59B2F4; 
     --main-color: #DDA0DD;
     --heading-font: 'Poppins', sans-serif;
@@ -192,42 +193,6 @@ span{
     box-sizing: none;
 }
 
-/* About page*/
-/* 
-.about{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:2rem;
-    background: var(--snd-bg-color);
-}
-
-.about-img img{
-    width: 35vw;
-}
-
-.heading{
-
-    text-align: center;
-    font-size:4.5rem;
-}
-
-.about-content h2{
-
-text-align:left;
-line-height:1.2;
-}
-
-.about-content h3{
-    font-size: 2.6rem;
-}
-
-.about-content p{
-     
-    font-size: 1.6rem;
-    margin:2rem 0 3rem;
-} */
-
 /* About Section */
 .about {
     display: flex;
@@ -262,7 +227,6 @@ line-height:1.2;
 
 
  /* services Design */
-
 .services h2 {
     margin-bottom: 5rem;
 }
@@ -287,7 +251,7 @@ line-height:1.2;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
     transition: all 0.4s ease;
     position: relative;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 .services-container .services-box::before {
@@ -339,7 +303,7 @@ line-height:1.2;
     padding: 1rem 2.5rem;
     font-size: 1.4rem;
     color: #fff;
-    border: none;
+    border:none;
     border-radius: 25px;
     background: linear-gradient(120deg, #c084fc,  #DDA0DD);
     cursor: pointer;
@@ -349,6 +313,8 @@ line-height:1.2;
 .services-box .btn:hover {
     background: linear-gradient(120deg, #ec4899, #c084fc);
 }
+
+
 
 /* portfolio design */
 
